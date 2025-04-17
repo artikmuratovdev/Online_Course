@@ -1,4 +1,8 @@
 import { projects } from '../../db/db';
+import '../../../public/download.png';
+import '../../../public/download (1).png';
+import '../../../public/download (2).png';
+import '../../../public/download (3).png';
 
 const Projects = () => {
   return (
