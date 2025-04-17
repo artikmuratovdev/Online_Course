@@ -1,0 +1,21 @@
+@import "tailwindcss";
+@import "./styles/typography.css";
+
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+  background-color: transparent;
+}
+
+::-webkit-scrollbar-button {
+  display: none;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #313845;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
