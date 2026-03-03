@@ -1,7 +1,7 @@
 import { useState } from "react";
-import MainPage from "./components/MainPage"
-import Navbar from "./components/Navbar"
-import Sidebar from "./components/Sidebar"
+import MainPage from "./Components/MainPage"
+import Navbar from "./Components/Navbar"
+import Sidebar from "./Components/Sidebar"
 import { useNavigate } from "react-router-dom";
 
 const App = () => {
