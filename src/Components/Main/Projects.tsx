@@ -5,7 +5,7 @@ const Projects = () => {
   return (
     <div className='py-3 grid grid-cols-3 gap-5'>
       {projects.map((project) => (
-        <div key={project.title} className='rounded-lg bg-black p-2'>
+        <div key={project.title} className='rounded-lg dark:bg-black p-2 border border-black'>
             <a href={project.link}>
             <img
               src={project.img}
