@@ -1,3 +1,5 @@
+import images from '../assets';
+
 export const courses = [
   {
     img : 'https://www.sammi.ac/_next/image?url=https%3A%2F%2Fqk9g5hsrut.ufs.sh%2Ff%2Fxu965PmyvPo00Gmjkh79cpx21MsQhvWPLIgeAHGwlaumbU8j&w=3840&q=75',
@@ -51,22 +53,22 @@ export const courses = [
 
 export const projects = [
   {
-    img:'./assets/download.png',
+    img: images.download0,
     title: "Expense Tracker",
     link : "https://expense-tracker-savitar-uzuhiko.vercel.app/"
   },
   {
-    img:'./assets/download (1).png',
+    img: images.download1,
     title: "Artemis Project",
     link : "https://artemis-v3.vercel.app/"
   },
   {
-    img:'./assets/download (2).png',
+    img: images.download2,
     title: "Admin Dashboard",
     link : "https://dashboard-silk-beta.vercel.app/"
   },
   {
-    img:'./assets/download (3).png',
+    img: images.download3,
     title: "Memory Card",
     link : "https://memory-card-game-kappa-taupe.vercel.app/"
   },
