@@ -51,22 +51,22 @@ export const courses = [
 
 export const projects = [
   {
-    img:'../assets/download.png',
+    img:'./assets/download.png',
     title: "Expense Tracker",
     link : "https://expense-tracker-savitar-uzuhiko.vercel.app/"
   },
   {
-    img:'../assets/download (1).png',
+    img:'./assets/download (1).png',
     title: "Artemis Project",
     link : "https://artemis-v3.vercel.app/"
   },
   {
-    img:'../assets/download (2).png',
+    img:'./assets/download (2).png',
     title: "Admin Dashboard",
     link : "https://dashboard-silk-beta.vercel.app/"
   },
   {
-    img:'../assets/download (3).png',
+    img:'./assets/download (3).png',
     title: "Memory Card",
     link : "https://memory-card-game-kappa-taupe.vercel.app/"
   },
