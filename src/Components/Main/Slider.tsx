@@ -3,7 +3,7 @@ import { courses } from '../../db/db';
 
 const slides = courses.slice(0,4);
 
-const ImageSlider = () => {
+const Slider = () => {
   const [current, setCurrent] = useState(0);
   const totalSlides = slides.length;
 
@@ -33,6 +33,6 @@ const ImageSlider = () => {
   );
 };
 
-export default ImageSlider;
+export default Slider;
 
 
